@@ -8,10 +8,11 @@ This repository is intended to be included as a git submodule at
 
 ## Contents
 
+The repository root is the overlay directory:
+
 ```
-cereal/
-├── meson.build                     # Meson dependency definition
-└── include/cereal/types/memory.hpp # Patched to avoid std::aligned_storage
+meson.build                     # Meson dependency definition
+include/cereal/types/memory.hpp # Patched to avoid std::aligned_storage
 ```
 
 ## Why this exists
